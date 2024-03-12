@@ -1,0 +1,13 @@
+{
+    "task": {
+        "task_class": "SciWorldTask"
+    },
+    "env_config": {
+        "env_class": "SciWorldEnv",
+        "instruction_path": "eval_agent/prompt/instructions/sciworld_inst.txt",
+        "env_jar_path": "envs/scienceworld/scienceworld.jar",
+        "icl_path": "eval_agent/prompt/icl_examples/sciworld_icl.json",
+        "icl_format": "conversation",
+        "max_steps": 10
+    }
+}

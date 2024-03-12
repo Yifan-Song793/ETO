@@ -1,0 +1,12 @@
+{
+    "task": {
+        "task_class": "WebShopTask"
+    },
+    "env_config": {
+        "env_class": "WebShopEnv",
+        "instruction_path": "eval_agent/prompt/instructions/webshop_inst.txt",
+        "icl_path": "eval_agent/prompt/icl_examples/webshop_icl.json",
+        "icl_format": "conversation",
+        "max_steps": 10
+    }
+}
