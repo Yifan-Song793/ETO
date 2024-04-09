@@ -5,6 +5,8 @@
 <img src=assets/main.png width=700/>
 </p>
 
+[**🌐 Homepage**](https://huggingface.co/spaces/agent-eto/Agent-ETO) | [**🤗 Dataset**](https://huggingface.co/datasets/agent-eto/eto-sft-trajectory) | [**📖 arXiv**](https://arxiv.org/abs/2403.02502)
+
 Official repo for [Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents](https://arxiv.org/abs/2403.02502)
 
 Authors: [Yifan Song](https://github.com/Yifan-Song793), [Da Yin](https://wadeyin9712.github.io/), [Xiang Yue](https://xiangyue9607.github.io/), [Jie Huang](https://jeffhj.github.io/), [Sujian Li](http://123.56.88.210/), [Bill Yuchen Lin](https://yuchenlin.xyz/).
@@ -53,6 +55,7 @@ The setup script performs the following actions:
 - Download game files for ALFWorld
 - Download expert trajectories for behavioral cloning
 
+You can also manually download the expert trajectories from [Google Drive](https://drive.google.com/file/d/1YbhbL8RhQGDWFv5y6k1qgwRqSyFFsao8/view?usp=sharing) or [Huggingface Datasets](https://huggingface.co/datasets/agent-eto/eto-sft-trajectory).
 
 ## 🚀 Quick Start
 
