@@ -26,9 +26,6 @@ ETO allows an LLM agent to iteratively collect failure trajectories and updates 
   - 💡 **Potential in Extreme Scenarios.** ETO shows better performance in self-play scenarios where expert trajectories are not available.
 
 
-## 📆 Todo
-
-- [ ] Upload the expert trajectories and the agent exploration trajectories on HuggingFace
 
 
 ## 🧩 Structure of This Project
