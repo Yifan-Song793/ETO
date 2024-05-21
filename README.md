@@ -7,7 +7,7 @@
 
 [**🌐 Homepage**](https://huggingface.co/spaces/agent-eto/Agent-ETO) | [**🤗 Dataset**](https://huggingface.co/datasets/agent-eto/eto-sft-trajectory) | [**📖 arXiv**](https://arxiv.org/abs/2403.02502)
 
-Official repo for [Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents](https://arxiv.org/abs/2403.02502)
+Official repo for [Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents](https://arxiv.org/abs/2403.02502) (ACL 2024 Main Conference)
 
 Authors: [Yifan Song](https://github.com/Yifan-Song793), [Da Yin](https://wadeyin9712.github.io/), [Xiang Yue](https://xiangyue9607.github.io/), [Jie Huang](https://jeffhj.github.io/), [Sujian Li](http://123.56.88.210/), [Bill Yuchen Lin](https://yuchenlin.xyz/).
 

@@ -151,7 +151,7 @@ def build_preference_alfworld(args):
                 "id": key,
                 "prompt": instruction_part[args.task] + golden_trajs[key][:1],
                 "chosen": golden_trajs[key][1:],
-                "rejected": pred_trajs[key][:len(golden_trajs[key]) + 5*2][1:],
+                "rejected": pred_trajs[key][1:],
             })
         elif pred_rewards[key] > golden_rewards[key]:
             win += 1
