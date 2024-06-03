@@ -2,7 +2,7 @@ import os
 import json
 import logging
 import functools
-from abc import ABC
+from abc import ABC, abstractmethod
 from typing import List, Optional, Tuple, Any
 
 
@@ -18,5 +18,6 @@ class Task(ABC):
         self.task_id: Any = kwargs.get("task_id", None)
         
     @classmethod
+    @abstractmethod
     def load_tasks(cls, split: str, part_num: int, part_idx: int) -> Tuple[List["Task"], int]:
         pass
