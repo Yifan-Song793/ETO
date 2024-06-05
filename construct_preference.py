@@ -36,6 +36,7 @@ instruction_part = {
     ],
 }
 
+# The length of the instruction part and in-context examples. We do not include them in the preference dataset.
 pred_traj_offset = {
     "webshop": 10,
     "sciworld": 16,
@@ -83,6 +84,7 @@ def build_preference(args):
         # assert key in golden_rewards
         if pred_rewards[key] < golden_rewards[key]:
             lose += 1
+            # Some failed trajectories will be significantly longer than successful ones. Heuristically, we limit the length of failed trajectories to not exceed the successful ones by more than 5 rounds.
             pm_data.append({
                 "id": key,
                 "prompt": instruction_part[args.task] + golden_trajs[key][:1],
