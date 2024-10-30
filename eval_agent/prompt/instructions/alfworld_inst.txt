@@ -3,7 +3,7 @@ For each of your turn, you will be given the observation of the last turn. You s
 
 The available actions are:
 1. go to {recep}
-2. task {obj} from {recep}
+2. take {obj} from {recep}
 3. put {obj} in/on {recep}
 4. open {recep}
 5. close {recep}
